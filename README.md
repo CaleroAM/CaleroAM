@@ -100,6 +100,7 @@ El objetivo no es solo que funcione, sino que pueda evolucionar.
 
 <img height="170em" src="https://github-readme-stats.vercel.app/api?username=CaleroAM&show_icons=true&theme=tokyonight"/>
 <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CaleroAM&layout=compact&theme=tokyonight"/>
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CaleroAM&show_icons=true&theme=tokyonight)](https://github.com/CaleroAM)
 
 </div>
 
