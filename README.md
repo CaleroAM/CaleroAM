@@ -8,7 +8,7 @@ Building scalable systems, automation workflows and cloud-ready platforms.
 
 ---
 
-## 🧠 About Me
+##  About Me
 
 Estudiante de TICs enfocado en el diseño y construcción de sistemas backend,
 automatización de procesos y soluciones orientadas a escalabilidad.
@@ -23,7 +23,7 @@ Actualmente combinando Backend, DevOps, IoT y fundamentos de Machine Learning ap
 
 ---
 
-## 🚀 Proyecto Principal
+##  Proyecto Principal
 
 ### SaaS Multi-Tenant Platform (Work in Progress)
 
@@ -43,7 +43,7 @@ El objetivo no es solo que funcione, sino que pueda evolucionar.
 
 ---
 
-## 🌐 Otros Proyectos
+##  Otros Proyectos
 
 ### IoT Gas Monitoring System
 - ESP32 + API REST.
@@ -67,7 +67,7 @@ El objetivo no es solo que funcione, sino que pueda evolucionar.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Lenguajes
 <div align="center">
@@ -94,7 +94,7 @@ El objetivo no es solo que funcione, sino que pueda evolucionar.
 
 ---
 
-## 📊 GitHub Activity
+##  GitHub Activity
 
 <div align="center">
 
@@ -106,7 +106,7 @@ El objetivo no es solo que funcione, sino que pueda evolucionar.
 
 ---
 
-## 🎯 Current Focus
+##  Current Focus
 
 - Mejorar diseño de arquitecturas backend.
 - Profundizar en automatización y CI/CD.
