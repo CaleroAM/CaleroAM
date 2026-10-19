@@ -205,23 +205,23 @@ def build_svg():
         
     svg.append('  </g>')
     svg.append('')
-    svg.append('  <!-- Etiquetas dinámicas sincronizadas con los 3 estados -->')
+    svg.append('  <!-- Etiquetas dinámicas sincronizadas con los 3 estados (Crossfade fluido sin huecos vacíos) -->')
     svg.append('  <g>')
     # Tux label
     svg.append('    <g opacity="1">')
-    svg.append('      <animate attributeName="opacity" dur="14.1s" repeatCount="indefinite" calcMode="linear" keyTimes="0; 0.2482; 0.2695; 0.9787; 1.0" values="1; 1; 0; 0; 1"/>')
+    svg.append('      <animate attributeName="opacity" dur="14.1s" repeatCount="indefinite" calcMode="linear" keyTimes="0; 0.2482; 0.2908; 0.9574; 1.0" values="1; 1; 0; 0; 1"/>')
     svg.append(f'      <text x="800" y="280" text-anchor="middle" fill="{COLOR_LABEL}" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="0.5">tux (linux)</text>')
     svg.append('      <text x="800" y="298" text-anchor="middle" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">kernel: gnu/linux</text>')
     svg.append('    </g>')
     # NixOS label
     svg.append('    <g opacity="0">')
-    svg.append('      <animate attributeName="opacity" dur="14.1s" repeatCount="indefinite" calcMode="linear" keyTimes="0; 0.3121; 0.3333; 0.5816; 0.6028; 1.0" values="0; 0; 1; 1; 0; 0"/>')
+    svg.append('      <animate attributeName="opacity" dur="14.1s" repeatCount="indefinite" calcMode="linear" keyTimes="0; 0.2482; 0.2908; 0.5816; 0.6241; 1.0" values="0; 0; 1; 1; 0; 0"/>')
     svg.append(f'      <text x="800" y="280" text-anchor="middle" fill="{COLOR_LABEL}" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="0.5">nixos snowflake</text>')
     svg.append('      <text x="800" y="298" text-anchor="middle" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">declarative &amp; reproducible</text>')
     svg.append('    </g>')
     # Lobster label
     svg.append('    <g opacity="0">')
-    svg.append('      <animate attributeName="opacity" dur="14.1s" repeatCount="indefinite" calcMode="linear" keyTimes="0; 0.6454; 0.6667; 0.9149; 0.9362; 1.0" values="0; 0; 1; 1; 0; 0"/>')
+    svg.append('      <animate attributeName="opacity" dur="14.1s" repeatCount="indefinite" calcMode="linear" keyTimes="0; 0.5816; 0.6241; 0.9149; 0.9574; 1.0" values="0; 0; 1; 1; 0; 0"/>')
     svg.append(f'      <text x="800" y="280" text-anchor="middle" fill="{COLOR_LABEL}" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="0.5">agente ia OpenClaw</text>')
     svg.append('      <text x="800" y="298" text-anchor="middle" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">autonomous systems &amp; runtime</text>')
     svg.append('    </g>')
@@ -241,8 +241,9 @@ def build_svg():
     target = ASSETS / "terminal.svg"
     target.write_text(content, encoding="utf-8")
     (ASSETS / "terminal-nixos.svg").write_text(content, encoding="utf-8")
+    (ASSETS / "terminal.v2.svg").write_text(content, encoding="utf-8")
     
-    print(f"Generated {target} ({len(content)} bytes)")
+    print(f"Generated {target} and terminal.v2.svg ({len(content)} bytes)")
 
 if __name__ == "__main__":
     build_svg()
