@@ -18,7 +18,7 @@
 ## `$ whoami`
 
 <p align="center">
-  <img src="assets/terminal.svg?v=3" width="960" alt="Terminal Linux con perfil de Ángel Calero">
+  <img src="assets/terminal.svg?v=4" width="960" alt="Terminal Linux con perfil de Ángel Calero">
 </p>
 
 ---
