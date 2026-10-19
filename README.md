@@ -122,13 +122,16 @@
 
 <div align="center">
 
-<a href="https://linkedin.com/in/tu-perfil">
+<a href="https://www.linkedin.com/in/calero-am/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>&nbsp;&nbsp;
-<a href="mailto:tu-correo@dominio.com">
+<a href="https://www.instagram.com/calero_am/" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+</a>&nbsp;&nbsp;
+<a href="mailto:calero.amg@gmail.com">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>&nbsp;&nbsp;
-<a href="https://github.com/CaleroAM">
+<a href="https://github.com/CaleroAM" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </a>
 
