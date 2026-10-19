@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 410" width="960" height="410" role="img" aria-labelledby="title desc">
+  <title id="title">Ángel Calero — Systems &amp; Backend Engineer</title>
+  <desc id="desc">Linux terminal window on NixOS switching between NixOS and Ferris the Crab.</desc>
+  <defs>
+    <linearGradient id="nixBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5277C3"/>
+      <stop offset="100%" stop-color="#7EBAE4"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Ventana principal estilo Linux (Kitty / Alacritty / GNOME en NixOS) -->
+  <rect width="960" height="410" rx="8" fill="#13141f"/>
+  <rect x="1.5" y="1.5" width="957" height="407" rx="7" fill="none" stroke="#2b334d" stroke-width="1.8"/>
+
+  <!-- Barra de pestañas / Título superior de Linux -->
+  <rect x="2" y="2" width="956" height="38" rx="6 6 0 0" fill="#0d0e17"/>
+  
+  <!-- Pestaña activa estilo Linux -->
+  <path d="M14 40 L14 14 C14 10 18 8 22 8 L180 8 C184 8 188 10 188 14 L188 40 Z" fill="#1a1b26"/>
+  <text x="32" y="26" fill="#7aa2f7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="600">calero@nixos: ~</text>
+  <text x="168" y="25" fill="#565f89" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">×</text>
+
+  <!-- Botón nueva pestaña (+) -->
+  <text x="206" y="26" fill="#565f89" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">+</text>
+
+  <!-- Botones de ventana nativos de Linux en la esquina superior derecha (Minimizar, Maximizar, Cerrar) -->
+  <g transform="translate(865, 12)">
+    <!-- Minimizar (guion) -->
+    <rect x="0" y="0" width="24" height="20" rx="3" fill="#1a1b26" stroke="#24283b" stroke-width="1"/>
+    <line x1="6" y1="12" x2="18" y2="12" stroke="#7aa2f7" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Maximizar (cuadrado) -->
+    <rect x="32" y="0" width="24" height="20" rx="3" fill="#1a1b26" stroke="#24283b" stroke-width="1"/>
+    <rect x="38" y="5" width="12" height="10" fill="none" stroke="#7aa2f7" stroke-width="1.6" rx="1"/>
+
+    <!-- Cerrar (cruz) -->
+    <rect x="64" y="0" width="24" height="20" rx="3" fill="#1a1b26" stroke="#24283b" stroke-width="1"/>
+    <line x1="71" y1="5" x2="81" y2="15" stroke="#f7768e" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="81" y1="5" x2="71" y2="15" stroke="#f7768e" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
+  <path d="M2 40H958" stroke="#24283b" stroke-width="1.5"/>
+
+  <!-- Panel izquierdo: Terminal Session -->
+  <rect x="20" y="54" width="624" height="340" rx="6" fill="#161722" stroke="#24283b" stroke-width="1.2"/>
+
+  <!-- Prompt 1: whoami -->
+  <text x="38" y="86" fill="#7dcfff" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">❯ whoami</text>
+  <text x="38" y="112" fill="#c0caf5" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700">ángel_calero</text>
+  <text x="150" y="112" fill="#565f89" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14">—</text>
+  <text x="170" y="112" fill="#bb9af7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14">Systems &amp; Backend Engineer</text>
+
+  <path d="M38 128H624" stroke="#24283b" stroke-width="1"/>
+
+  <!-- Prompt 2: nixos-version -->
+  <text x="38" y="156" fill="#7dcfff" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">❯ nixos-version --info</text>
+  
+  <text x="38" y="182" fill="#565f89" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">os:</text>
+  <text x="150" y="182" fill="#9ece6a" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">NixOS 24.11 · Declarative &amp; Reproducible</text>
+
+  <text x="38" y="206" fill="#565f89" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">architecture:</text>
+  <text x="150" y="206" fill="#e0af68" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">Clean Architecture · DDD · Idempotent Backends</text>
+
+  <text x="38" y="230" fill="#565f89" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">ai_engineering:</text>
+  <text x="150" y="230" fill="#7aa2f7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">Deterministic Wrappers, Tree-sitter &amp; MLOps</text>
+
+  <path d="M38 248H624" stroke="#24283b" stroke-width="1"/>
+
+  <!-- Prompt 3: projects -->
+  <text x="38" y="276" fill="#7dcfff" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">❯ ls -1 ./featured-projects/</text>
+  
+  <text x="38" y="302" fill="#7EBAE4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">graphtyn/</text>
+  <text x="150" y="302" fill="#a9b1d6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">Code Intelligence &amp; MCP Server (v0.10.x)</text>
+
+  <text x="38" y="326" fill="#7EBAE4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">isac26/</text>
+  <text x="150" y="326" fill="#a9b1d6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">StatsBomb &amp; Club América Analytics Engine</text>
+
+  <text x="38" y="350" fill="#7EBAE4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">modIAceb/</text>
+  <text x="150" y="350" fill="#a9b1d6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">Reproducible MLOps Pipeline (TabPFN + Django)</text>
+
+  <text x="38" y="374" fill="#7EBAE4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">TourMuseosPuebla/</text>
+  <text x="180" y="374" fill="#a9b1d6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">Decoupled C#/.NET + Dynamic Vertex AI routing</text>
+
+  <!-- Panel derecho: Gráfico que alterna entre NixOS y Cangrejo (Ferris) -->
+  <rect x="660" y="54" width="280" height="340" rx="6" fill="#161722" stroke="#24283b" stroke-width="1.2"/>
+
+  <!-- ESTADO 1: Logo de NixOS (Visible al inicio, se desvanece al cangrejo) -->
+  <g id="nixos-state">
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite"
+             values="1; 1; 0; 0; 0; 1"
+             keyTimes="0; 0.44; 0.50; 0.94; 0.97; 1"/>
+    
+    <g transform="translate(740, 88) scale(5)" filter="url(#glow)">
+      <path fill="url(#nixBlue)" d="M7.352 1.592l-1.364.002L5.32 2.75l1.557 2.713-3.137-.008-1.32 2.34H14.11l-1.353-2.332-3.192-.006-2.214-3.865zm6.175 0l-2.687.025 5.846 10.127 1.341-2.34-1.59-2.765 2.24-3.85-.683-1.182h-1.336l-1.57 2.705-1.56-2.72zm6.887 4.195l-5.846 10.125 2.696-.008 1.601-2.76 4.453.016.682-1.183-.666-1.157-3.13-.008L21.778 8.1l-1.365-2.313zM9.432 8.086l-2.696.008-1.601 2.76-4.453-.016L0 12.02l.666 1.157 3.13.008-1.575 2.71 1.365 2.315L9.432 8.086zM7.33 12.25l-.006.01-.002-.004-1.342 2.34 1.59 2.765-2.24 3.85.684 1.182H7.35l.004-.006h.001l1.567-2.698 1.558 2.72 2.688-.026-.004-.006h.01L7.33 12.25zm2.55 3.93l1.354 2.332 3.192.006 2.215 3.865 1.363-.002.668-1.156-1.557-2.713 3.137.008 1.32-2.34H9.881Z"/>
+    </g>
+
+    <text x="800" y="245" text-anchor="middle" fill="#7EBAE4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">NixOS System</text>
+    <text x="800" y="268" text-anchor="middle" fill="#565f89" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">flake: github:CaleroAM</text>
+  </g>
+
+  <!-- ESTADO 2: Cangrejo (Ferris the Crab) (Aparece cuando NixOS se oculta) -->
+  <g id="crab-state">
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite"
+             values="0; 0; 1; 1; 0; 0"
+             keyTimes="0; 0.46; 0.52; 0.92; 0.97; 1"/>
+
+    <!-- Ferris el cangrejo vectorizado -->
+    <g transform="translate(0, -6)">
+      <!-- Patas traseras/inferiores -->
+      <!-- Izquierda -->
+      <path d="M764 185 C748 196 742 208 736 220" stroke="#c0392b" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <path d="M774 192 C762 205 756 216 754 227" stroke="#c0392b" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <path d="M784 197 C778 210 774 221 772 232" stroke="#c0392b" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <!-- Derecha -->
+      <path d="M836 185 C852 196 858 208 864 220" stroke="#c0392b" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <path d="M826 192 C838 205 844 216 846 227" stroke="#c0392b" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <path d="M816 197 C822 210 826 221 828 232" stroke="#c0392b" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+      <!-- Brazos de las pinzas -->
+      <path d="M760 162 C740 156 730 138 735 124" stroke="#c0392b" stroke-width="8" stroke-linecap="round" fill="none"/>
+      <path d="M840 162 C860 156 870 138 865 124" stroke="#c0392b" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+      <!-- Pinza Izquierda -->
+      <path d="M724 125 C712 110 728 92 738 108 C742 114 748 114 752 108 C762 92 778 110 766 125 C754 138 734 138 724 125 Z" fill="#e74c3c" stroke="#962d22" stroke-width="2"/>
+      
+      <!-- Pinza Derecha -->
+      <path d="M876 125 C888 110 872 92 862 108 C858 114 852 114 848 108 C838 92 822 110 834 125 C846 138 866 138 876 125 Z" fill="#e74c3c" stroke="#962d22" stroke-width="2"/>
+
+      <!-- Cuerpo principal del cangrejo -->
+      <ellipse cx="800" cy="168" rx="46" ry="36" fill="#e74c3c" stroke="#962d22" stroke-width="2.5"/>
+      <ellipse cx="800" cy="165" rx="42" ry="31" fill="#ff6b5b"/>
+
+      <!-- Tallos de ojos -->
+      <rect x="781" y="142" width="9" height="15" fill="#e74c3c"/>
+      <rect x="810" y="142" width="9" height="15" fill="#e74c3c"/>
+
+      <!-- Ojos grandes y amigables -->
+      <!-- Ojo Izquierdo -->
+      <circle cx="785" cy="134" r="14" fill="#ffffff" stroke="#962d22" stroke-width="2.5"/>
+      <circle cx="786" cy="134" r="6" fill="#13141f"/>
+      <circle cx="783" cy="131" r="2.5" fill="#ffffff"/>
+
+      <!-- Ojo Derecho -->
+      <circle cx="815" cy="134" r="14" fill="#ffffff" stroke="#962d22" stroke-width="2.5"/>
+      <circle cx="814" cy="134" r="6" fill="#13141f"/>
+      <circle cx="811" cy="131" r="2.5" fill="#ffffff"/>
+
+      <!-- Sonrisa -->
+      <path d="M792 176 Q800 184 808 176" stroke="#962d22" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+      <!-- Mejillas sonrojadas -->
+      <circle cx="774" cy="173" r="5" fill="#ff9f93" opacity="0.7"/>
+      <circle cx="826" cy="173" r="5" fill="#ff9f93" opacity="0.7"/>
+    </g>
+
+    <text x="800" y="245" text-anchor="middle" fill="#ff7a66" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">Ferris the Crab</text>
+    <text x="800" y="268" text-anchor="middle" fill="#565f89" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">systems &amp; memory safety</text>
+  </g>
+
+  <!-- Tarjeta de estado de runtime común (inferior derecha) -->
+  <rect x="682" y="290" width="236" height="84" rx="5" fill="#10111a" stroke="#24283b" stroke-width="1"/>
+  
+  <text x="696" y="312" fill="#7aa2f7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">state: </text>
+  <text x="746" y="312" fill="#9ece6a" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">production_ready</text>
+
+  <text x="696" y="334" fill="#7aa2f7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">focus: </text>
+  <text x="746" y="334" fill="#e0af68" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">Backend &amp; AI Systems</text>
+
+  <text x="696" y="356" fill="#7aa2f7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">shell: </text>
+  <text x="746" y="356" fill="#bb9af7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">zsh + oh-my-posh</text>
+</svg>
